@@ -1,7 +1,7 @@
 connect-b2g
 ===========
 
-[![Build Status](https://secure.travis-ci.org/topliceanu/connect-b2g.png)](http://travis-ci.org/topliceanu/connect-b2g)
+[![Build Status](https://secure.travis-ci.org/topliceanu/connect-b2g.png?branch=master)](http://travis-ci.org/topliceanu/connect-b2g)
 
 Abstract
 --------
