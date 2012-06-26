@@ -10,11 +10,11 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test/index.js"
   },
   "dependencies": {
-    "mocha": "*",
-		"request": "*"
+    "mocha": "~1.0.3",
+		"request": "~2.9.202"
   },
   "devDependencies": {},
   "optionalDependencies": {},
