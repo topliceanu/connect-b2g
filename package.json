@@ -1,0 +1,24 @@
+{
+  "author": "alexandru topliceanu <alexandru.topliceanu@gmail.com> (https://github.com/topliceanu)",
+  "name": "connect-b2g",
+  "description": "Connect middleware that delivers an application manifest compatible with Mozilla's Open Web Apps initiative",
+  "version": "0.0.1",
+  "homepage": "https://github.com/topliceanu/connect-b2g",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/topliceanu/connect-b2g.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha": "*",
+		"request": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
