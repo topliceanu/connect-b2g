@@ -1,6 +1,7 @@
 connect-b2g
 ===========
 
+[![Build Status](https://secure.travis-ci.org/topliceanu/connect-b2g.png)](http://travis-ci.org/topliceanu/connect-b2g)
 
 Abstract
 --------
@@ -19,18 +20,18 @@ Open Web Apps are web apps that are installable on Mozilla's Boot 2 Gecko Operat
 
 Any website can be installed as an app on B2G but it needs to provide a manifest file. 
 
-This is a text file containing a json document. It can have any name but must have the extension `.webapp`. 
+The manifest is a text file containing a json document. It can have any name but must have the extension `.webapp`. 
 
 It will be requested from the webroot by the client device, much like a favicon.
 
 	Example: http://domain.com/manifest.webapp
 
 
-This simple connect middleware delivers the mainfest from a given file path.
-
 To find out more about creating Boot to Gecko Apps go to the [Mozilla Developer Network](https://developer.mozilla.org/en/Apps)
 
-This middleware does not enforce the manifest schema or format. Read about these [here](https://developer.mozilla.org/en/Apps/Manifest).
+This simple connect middleware delivers the mainfest from a given file path.
+
+This middleware does not enforce the manifest schema, format or content. Read about these topics [here](https://developer.mozilla.org/en/Apps/Manifest).
 
 Usage
 -----
