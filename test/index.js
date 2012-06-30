@@ -20,7 +20,7 @@ describe( 'connect-b2g()', function () {
 	it('should server the correct manifest file', function (done) {
 		fs.readFile( manifestPath, 'UTF-8', function (err, fileContents) {
 			if (err) return done(err);
-			request.get('http://localhost:3000/manifest.webapp', function (err, response) {
+			request.get('http://127.0.0.1:3000/manifest.webapp', function (err, response) {
 				if (err) return done(err);
 				if (fileContents !== response.body) return done(Error('not the same content'));
 				return done();
@@ -29,7 +29,7 @@ describe( 'connect-b2g()', function () {
 	});
 
 	it('should serve the manifest using the correct Content-Type header', function (done) {
-		request.get('http://localhost:3000/manifest.webapp', function (err, response) {
+		request.get('http://127.0.0.1:3000/manifest.webapp', function (err, response) {
 			if (err) return done(err);
 			if (response.headers['content-type'] !== 'application/x-web-app-manifest+json') 
 				return done(Error('unexpected header'));
