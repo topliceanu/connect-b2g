@@ -1,13 +1,16 @@
 var fs = require('fs');
 var path = require('path');
+
 var connect = require('connect');
 var request = require('supertest');
 
 var b2g = require('../');
 
+
 var manifestPath = 'test/fixtures/manifest.webapp';
 var app = connect();
 app.use( b2g(manifestPath) )
+
 
 describe( 'connect-b2g()', function () {
 	it('should server the correct manifest file with correct Content-Type header', function (done) {

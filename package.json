@@ -13,8 +13,8 @@
     "test": "mocha test/index.js"
   },
   "dependencies": {
+		"connect": "~2.3.5",
     "mocha": "~1.0.3",
-		"request": "~2.9.202",
 		"supertest": "~0.1.0"
   },
   "devDependencies": {},
