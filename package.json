@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "mocha": "~1.0.3",
-		"request": "~2.9.202"
+		"request": "~2.9.202",
+		"supertest": "~0.1.0"
   },
   "devDependencies": {},
   "optionalDependencies": {},
