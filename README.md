@@ -49,7 +49,7 @@ Much like any other connect middleware
 Running tests
 -------------
 
-To run tests you need to install [mocha](http://visionmedia.github.com/mocha/) and [request](https://github.com/mikeal/request).
+To run tests you need to install [mocha](https://mochajs.org/) and [request](https://github.com/mikeal/request).
 
 	sudo npm install -g mocha
 	npm install request
